@@ -1,0 +1,74 @@
+
+
+/* CLASS  */
+.ICOM {
+    background-color: red; 
+    height: 100px; 
+    
+  }
+  
+  
+  /* ID */
+  
+  #Apaar {
+    
+    background-color: red; 
+    height: 200px; 
+    width: 150px;
+    margin-top: 60%;
+    margin-left: 50%;
+    border: 5px solid black; 
+    color: black; 
+    font-family: "Playwrite HU", cursive;
+    
+  }
+  
+  .gradient-box {
+      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      padding: 20px;
+      text-align: center;
+      border-radius: 5px;
+      color: white;
+  }
+  
+  .MainMenu { 
+  background-color: grey; 
+  padding: 15px;
+  display: flex; 
+  gap: 30px;   
+  align-items: center;   
+  justify-content: center;   
+  }
+  
+  a {
+    color: white;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  a:visited { 
+  color: pink; }
+  
+  
+  #Apaar:hover {
+    
+    background-color: green; 
+    height: 200px; 
+    width: 150px;
+    margin-top: 60%;
+    margin-left: 50%;
+    border: 5px solid black; 
+    color: black; 
+    font-family: "Playwrite HU", cursive;
+  } 
+
+  .grid-container {
+
+    display: grid;
+    grid-template-columns:  1fr 1fr ;
+    grid-gap: 25px; 
+    justify-content: space-evenly;
+
+   }
