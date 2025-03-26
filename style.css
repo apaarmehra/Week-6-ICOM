@@ -9,7 +9,6 @@
   
   
   /* ID */
-  
   #Apaar {
     background-color: red; 
     padding: 20px;
@@ -17,6 +16,11 @@
     color: black; 
     font-family: "Playwrite HU", cursive;
     text-align: center;
+  
+    width: 60%;              /* set a fixed width */
+    max-width: 600px;        /* optional, for responsiveness */
+    margin: 40px auto;       /* centers the div horizontally */
+    transition: background-color 0.3s ease;  /* smooth hover effect */
   }
 
   
